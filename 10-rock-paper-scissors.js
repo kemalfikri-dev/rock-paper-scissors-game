@@ -80,7 +80,7 @@
         innerHTML = `${result}`;
 
     document.querySelector('.js-moves').
-        innerHTML = `you <img class="move-icon" src="/images/${playerMove}-emoji.png" alt=""> <img class="move-icon" src="/images/${computerMove}-emoji.png" alt=""> computer`;
+        innerHTML = `you <img class="move-icon" src="${playerMove}-emoji.png" alt=""> <img class="move-icon" src="${computerMove}-emoji.png" alt=""> computer`;
         
       }
 
